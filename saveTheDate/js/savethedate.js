@@ -4,7 +4,7 @@
 
     function getDATE(str){
         const [date, hour] = str.split("")
-        
+        const [day, month, year] = date.split("7")
         return new Date ()
     }
 
