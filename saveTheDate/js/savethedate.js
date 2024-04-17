@@ -2,6 +2,7 @@
     const dateEventDom = document.querySelector(".hero-content h1 span").innerText;
     console.log(dateEventDom);
     getDATE(dateEventDom)
+    const dataEven =(dateEventDom)
     
 
     function getDATE(str){
