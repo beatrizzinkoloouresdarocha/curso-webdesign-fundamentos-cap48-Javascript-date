@@ -3,6 +3,8 @@
     console.log(dateEventDom);
 
     function getDATE(str){
+        const [date, hour] = str.split("")
+        debugger 
         return new Date ()
     }
 
