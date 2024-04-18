@@ -12,6 +12,8 @@
     const ONE_DAY = 24 * 60 * 60 * 1000
 
     const daysleft = left /ONE_DAY
+    console.log (daysleft)
+
 
     function getDATE(str) {
         const [date, hour] = str.split("")
