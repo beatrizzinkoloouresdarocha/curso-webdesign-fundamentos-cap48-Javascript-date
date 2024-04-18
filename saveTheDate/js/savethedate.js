@@ -7,7 +7,7 @@
 
     const  today = new Date()
 
-
+    const  left= dateEven.getTime() - today.getTime ()
 
     function getDATE(str) {
         const [date, hour] = str.split("")
