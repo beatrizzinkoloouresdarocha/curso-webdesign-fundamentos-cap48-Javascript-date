@@ -9,10 +9,12 @@
 
     const left = dateEven.getTime() - today.getTime();
 
+    const ONE_HOUR =  60 * 60 * 1000
     const ONE_DAY = 24 * 60 * 60 * 1000
 
     const daysleft =parseInt (left / ONE_DAY)
-    console.log(daysleft)
+    let = left -daysleft * ONE_DAY
+    
 
 
     function getDATE(str) {
