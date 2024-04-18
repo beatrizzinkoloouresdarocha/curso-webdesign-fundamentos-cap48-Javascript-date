@@ -17,6 +17,7 @@
     
 
 
+    
     function getDATE(str) {
         const [date, hour] = str.split(" ")
         const [day, month, year] = date.split("/")
