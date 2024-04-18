@@ -4,6 +4,10 @@
    
     const dateEven = getDATE(dateEventDom)
     console.log(dateEven)
+
+    const  today = new Date( )
+
+    
     
     function getDATE(str){
         const [date, hour] = str.split("")
