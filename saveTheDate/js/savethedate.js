@@ -16,7 +16,7 @@
     left = left -daysleft * ONE_DAY
     
     const hoursLeft =parseInt (left /ONE_HOUR )
-
+    left =left - hoursLeft * ONE_HOUR 
     
 
 
