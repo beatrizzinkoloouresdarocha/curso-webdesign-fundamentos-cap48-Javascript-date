@@ -9,6 +9,10 @@
 
     const  left= dateEven.getTime() - today.getTime ()
 
+    const ONE_DAY = 24 * 60 * 60 * 1000
+
+    
+
     function getDATE(str) {
         const [date, hour] = str.split("")
         const [day, month, year] = date.split("/")
